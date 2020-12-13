@@ -1,0 +1,30 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "rover movement",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest --runInBand ./test",
+    "start": "nodemon ./server.js --exec babel-node"
+  },
+  "author": "EPL",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "mongodb-memory-server": "^6.9.2",
+    "mongoose": "^5.11.7",
+    "morgan": "^1.9.0",
+    "winston": "^2.4.0",
+    "winston-daily-rotate-file": "^1.7.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "nodemon": "^1.12.1"
+  }
+}
